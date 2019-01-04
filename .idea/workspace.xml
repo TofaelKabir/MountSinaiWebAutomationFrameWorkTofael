@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7354d3a5-e392-43ac-90e9-59c0365625e0" name="Default Changelist" comment="" />
+    <list default="true" id="7354d3a5-e392-43ac-90e9-59c0365625e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MountSinai/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/MountSinai/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MountSinai/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/MountSinai/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -42,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1750" />
+          <entry key="java" value="2066" />
           <entry key="runner" value="3" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1750" />
+          <entry key="JAVA" value="2066" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="6" />
         </counts>
@@ -58,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MountSinai/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="90" column="118" selection-start-line="90" selection-start-column="118" selection-end-line="90" selection-end-column="118" />
+            <state relative-caret-position="365">
+              <caret line="102" column="67" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="201" column="34" lean-forward="true" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
+            <state relative-caret-position="434">
+              <caret line="239" column="20" lean-forward="true" selection-start-line="239" selection-start-column="20" selection-end-line="239" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,6 +95,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,10 +156,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="445" />
-    <option name="y" value="223" />
-    <option name="width" value="862" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="561" />
+    <option name="y" value="23" />
+    <option name="width" value="826" />
     <option name="height" value="830" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -177,6 +185,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -238,7 +247,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546564808997" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546572847539" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -268,8 +277,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testChooseALocation">
-    <configuration name="TestMainPage.testChooseALocation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMainPage.testMountSinaiAtAGlance">
+    <configuration name="TestMainPage.testGo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -279,7 +288,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testChooseALocation" />
+      <option name="METHOD_NAME" value="testGo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -287,7 +296,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testEnterZipCode" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testMountSinaiAtAGlance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -297,7 +306,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testEnterZipCode" />
+      <option name="METHOD_NAME" value="testMountSinaiAtAGlance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -305,7 +314,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testFindADoctor2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testSelectHospitals1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -315,7 +324,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testFindADoctor2" />
+      <option name="METHOD_NAME" value="testSelectHospitals1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -323,7 +332,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testGoZipCode" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -333,7 +342,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testGoZipCode" />
+      <option name="METHOD_NAME" value="testSelectUrgentCareAndWalkIn1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -341,7 +350,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testSelectSpecialty" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testViewMoreLocations" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -351,7 +360,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testSelectSpecialty" />
+      <option name="METHOD_NAME" value="testViewMoreLocations" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -360,19 +369,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestMainPage.testFindADoctor2" />
-      <item itemvalue="TestNG.TestMainPage.testSelectSpecialty" />
-      <item itemvalue="TestNG.TestMainPage.testEnterZipCode" />
-      <item itemvalue="TestNG.TestMainPage.testGoZipCode" />
-      <item itemvalue="TestNG.TestMainPage.testChooseALocation" />
+      <item itemvalue="TestNG.TestMainPage.testSelectHospitals1" />
+      <item itemvalue="TestNG.TestMainPage.testSelectUrgentCareAndWalkIn1" />
+      <item itemvalue="TestNG.TestMainPage.testGo" />
+      <item itemvalue="TestNG.TestMainPage.testViewMoreLocations" />
+      <item itemvalue="TestNG.TestMainPage.testMountSinaiAtAGlance" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testChooseALocation" />
-        <item itemvalue="TestNG.TestMainPage.testGoZipCode" />
-        <item itemvalue="TestNG.TestMainPage.testEnterZipCode" />
-        <item itemvalue="TestNG.TestMainPage.testSelectSpecialty" />
-        <item itemvalue="TestNG.TestMainPage.testFindADoctor2" />
+        <item itemvalue="TestNG.TestMainPage.testMountSinaiAtAGlance" />
+        <item itemvalue="TestNG.TestMainPage.testViewMoreLocations" />
+        <item itemvalue="TestNG.TestMainPage.testGo" />
+        <item itemvalue="TestNG.TestMainPage.testSelectUrgentCareAndWalkIn1" />
+        <item itemvalue="TestNG.TestMainPage.testSelectHospitals1" />
       </list>
     </recent_temporary>
   </component>
@@ -390,39 +399,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testSelectSpecialty - 2019.01.03 at 19h 20m 12s.xml">
-      <configuration name="TestMainPage.testSelectSpecialty" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testSelectHospitals1 - 2019.01.03 at 22h 01m 06s.xml">
+      <configuration name="TestMainPage.testSelectHospitals1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSelectSpecialty - 2019.01.03 at 19h 20m 29s.xml">
-      <configuration name="TestMainPage.testSelectSpecialty" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testSelectUrgentCareAndWalkIn1 - 2019.01.03 at 22h 04m 52s.xml">
+      <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testEnterZipCode - 2019.01.03 at 19h 42m 22s.xml">
-      <configuration name="TestMainPage.testEnterZipCode" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testSelectUrgentCareAndWalkIn1 - 2019.01.03 at 22h 08m 30s.xml">
+      <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testEnterZipCode - 2019.01.03 at 19h 43m 58s.xml">
-      <configuration name="TestMainPage.testEnterZipCode" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testSelectUrgentCareAndWalkIn1 - 2019.01.03 at 22h 09m 52s.xml">
+      <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testEnterZipCode - 2019.01.03 at 19h 55m 26s.xml">
-      <configuration name="TestMainPage.testEnterZipCode" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testSelectHospitals1 - 2019.01.03 at 22h 10m 22s.xml">
+      <configuration name="TestMainPage.testSelectHospitals1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testEnterZipCode - 2019.01.03 at 20h 00m 19s.xml">
-      <configuration name="TestMainPage.testEnterZipCode" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testSelectUrgentCareAndWalkIn1 - 2019.01.03 at 22h 14m 36s.xml">
+      <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testEnterZipCode - 2019.01.03 at 20h 01m 34s.xml">
-      <configuration name="TestMainPage.testEnterZipCode" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testGo - 2019.01.03 at 22h 18m 33s.xml">
+      <configuration name="TestMainPage.testGo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testEnterZipCode - 2019.01.03 at 20h 03m 44s.xml">
-      <configuration name="TestMainPage.testEnterZipCode" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testViewMoreLocations - 2019.01.03 at 22h 22m 24s.xml">
+      <configuration name="TestMainPage.testViewMoreLocations" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testGoZipCode - 2019.01.03 at 20h 15m 25s.xml">
-      <configuration name="TestMainPage.testGoZipCode" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testViewMoreLocations - 2019.01.03 at 22h 24m 08s.xml">
+      <configuration name="TestMainPage.testViewMoreLocations" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testGoZipCode - 2019.01.03 at 20h 16m 11s.xml">
-      <configuration name="TestMainPage.testGoZipCode" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testMountSinaiAtAGlance - 2019.01.03 at 22h 30m 50s.xml">
+      <configuration name="TestMainPage.testMountSinaiAtAGlance" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="445" y="223" width="862" height="830" extended-state="0" />
+    <frame x="561" y="23" width="826" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.30975348" />
@@ -434,15 +452,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2100271" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3292683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -562,20 +580,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/MountSinai/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="201" column="34" lean-forward="true" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
+        <state relative-caret-position="365">
+          <caret line="102" column="67" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MountSinai/src/main/java/homePage/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="90" column="118" selection-start-line="90" selection-start-column="118" selection-end-line="90" selection-end-column="118" />
+        <state relative-caret-position="434">
+          <caret line="239" column="20" lean-forward="true" selection-start-line="239" selection-start-column="20" selection-end-line="239" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -75,11 +75,6 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkSearch();
     }
- //   @Test
-//    public void testSearchButton(){
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-//        mainPage.checkSearchButton();
-//    }
     @Test
     public void testCalender(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -167,29 +162,24 @@ public class TestMainPage extends MainPage {
         mainPage.checkCallUs();
     }
     @Test
-    public void testSpecialty(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkSpecialty();
-    }
-    @Test
-    public void testPrimaryCare(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkPrimaryCare();
-    }
-    @Test
-    public void testName(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkName();
-    }
-    @Test
     public void testFindADoctor2(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkFindADoctor2();
     }
     @Test
+    public void testSpecialty(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSpecialty();
+    }
+    @Test
     public void testSelectSpecialty(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkSelectSpecialty();
+    }
+    @Test
+    public void testPrimaryCare(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPrimaryCare();
     }
     @Test
     public void testEnterZipCode(){
@@ -202,9 +192,54 @@ public class TestMainPage extends MainPage {
         mainPage.checkGoZipCode();
     }
     @Test
+    public void testName(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkName();
+    }
+    @Test
+    public void testLastName(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkLastName();
+    }
+    @Test
+    public void testFirstName(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkFirstName();
+    }
+    @Test
     public void testChooseALocation(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkChooseALocation();
+    }
+    @Test
+    public void testHospitals1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkHospitals1();
+    }
+    @Test
+    public void testSelectHospitals1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSelectHospitals1();
+    }
+    @Test
+    public void testUrgentCareAndWalkIn1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkUrgentCareAndWalkIn1();
+    }
+    @Test
+    public void testGo(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkGo();
+    }
+    @Test
+    public void testViewMoreLocations(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkViewMoreLocations();
+    }
+    @Test
+    public void testMountSinaiAtAGlance(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkMountSinaiAtAGlance();
     }
 
 }

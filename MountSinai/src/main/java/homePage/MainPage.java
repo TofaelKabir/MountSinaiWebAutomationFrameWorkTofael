@@ -68,29 +68,42 @@ public class MainPage extends BaseUtil {
     public static WebElement learnMore;
     @FindBy(xpath = "//h2[@class='section_title hpcards__container--main--title']")
     public static WebElement callUs;
+    @FindBy(xpath = "//h1[contains(text(),'Find a Doctor')]")
+    public static WebElement findADoctor2;
     @FindBy(xpath = "//span[text()='Specialty']//parent::label//parent::li")
     public static WebElement specialty;
     @FindBy(xpath = "//span[text()='Primary Care']//parent::label")
-    public static WebElement primaryCare;
-    @FindBy(xpath = "//span[text()='Name']//parent::label")
-    public static WebElement name;
-    @FindBy(xpath = "//h1[contains(text(),'Find a Doctor')]")
-    public static WebElement findADoctor2;
-    @FindBy(xpath = "//select[@id='specialty']")
     public static WebElement selectSpecialty;
     @FindBy(xpath = "//div[@id='byspecialty_div']//input[@name='zipcode']")
+    public static WebElement primaryCare;
+    @FindBy(xpath = "//span[text()='Name']//parent::label")
     public static WebElement enterZipCode;
     @FindBy(xpath = "//div[@id='byspecialty_div']//button[@type='submit']")
     public static WebElement goZipCode;
     @FindBy(xpath = "//h2[contains(text(),'Choose a Location')]")
+    public static WebElement name;
+    @FindBy(xpath = "//div[@id='bybame_div']//input[@name='lastName']")  //not working
+    public static WebElement lastName;
+    @FindBy(xpath = "//div[@id='bybame_div']//input[@name='firstName']") //not working
+    public static WebElement firstName;
+    @FindBy(xpath = "//select[@id='specialty']")
     public static WebElement chooseALocation;
+    @FindBy(xpath = "//li[@class='hploc__radio-btn hploc__radio-btn--hospital']")
+    public static WebElement hospitals1;
+    @FindBy(id = "hploc__sel-text-hosp")
+    public static WebElement selectHospitals1;
+    @FindBy(xpath = "//li[@class='hploc__radio-btn hploc__radio-btn--urgentcare']")
+    public static WebElement urgentCareAndWalkIn1;
+    @FindBy(xpath = "//a[@id='hploc__sel-text-urgentcare' and @class ='font-14 dropdown hploc__placeholder--select']")//not working
+    public static WebElement selectUrgentCareAndWalkIn1;
+    @FindBy(className = "hploc__btn--submit")
+    public static WebElement go;
+    @FindBy(xpath = "//a[@class='view-more text-center']")
+    public static WebElement viewMoreLocations;
+    @FindBy(xpath = "//div[@class='row']//h2[@class='section_title']")//not working
+    public static WebElement mountSinaiAtAGlance;
 
 
-
-
-
-
-//input[@name='search-by']//span[contains(text(),'Hospitals')]  or  //span[contains(text(),'Hospitals')]parents::label
 
     public void checkLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -157,11 +170,6 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         search.click();
     }
-//    public void checkSearchButton() {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        searchButton.click();
-//    }
     public void checkCalender() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -247,30 +255,25 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         callUs.click();
     }
-    public void checkSpecialty() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        specialty.click();
-    }
-    public void checkPrimaryCare() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        primaryCare.click();
-    }
-    public void checkName() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        name.click();
-    }
     public void checkFindADoctor2() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         findADoctor2.click();
     }
+    public void checkSpecialty() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        specialty.click();
+    }
     public void checkSelectSpecialty() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         selectSpecialty.click();
+    }
+    public void checkPrimaryCare() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        primaryCare.click();
     }
     public void checkEnterZipCode() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -282,10 +285,60 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         goZipCode.click();
     }
+    public void checkName() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        name.click();
+    }
+    public void checkLastName() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        lastName.click();
+    }
+    public void checkFirstName() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        firstName.click();
+    }
     public void checkChooseALocation() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         chooseALocation.click();
+    }
+    public void checkHospitals1() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        hospitals1.click();
+    }
+    public void checkSelectHospitals1() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectHospitals1.click();
+    }
+    public void checkUrgentCareAndWalkIn1() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        urgentCareAndWalkIn1.click();
+    }
+    public void checkSelectUrgentCareAndWalkIn1() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectUrgentCareAndWalkIn1.click();
+    }
+    public void checkGo() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        go.click();
+    }
+    public void checkViewMoreLocations() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        viewMoreLocations.click();
+    }
+    public void checkMountSinaiAtAGlance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mountSinaiAtAGlance.click();
     }
 
 
