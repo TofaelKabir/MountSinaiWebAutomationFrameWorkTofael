@@ -100,10 +100,86 @@ public class MainPage extends BaseUtil {
     public static WebElement go;
     @FindBy(xpath = "//a[@class='view-more text-center']")
     public static WebElement viewMoreLocations;
-    @FindBy(xpath = "//div[@class='row']//h2[@class='section_title']")//not working
+    @FindBy(xpath = "//h2[contains(text(), 'Mount Sinai at a Glance')]")
+
+
     public static WebElement mountSinaiAtAGlance;
+    @FindBy(xpath = "//i[@class='fa fa-group']")
+
+    public static WebElement symbolOfEmployees;
+    @FindBy(xpath = "//h3[contains(text(),'Over 38,000 Employees')]")
+    public static WebElement over38000Employees;
+    @FindBy(xpath= "//span[contains(text(),'Including more than 6,500 primary care physicians and specialists')]")
+    public static WebElement captionOfSymbolOfEmployees;
+
+    @FindBy(xpath = "//i[@class='fa fa-map-marker']")
+    public static WebElement symbolOfMap;
+    @FindBy(xpath = "//h3[contains(text(),'300+ Community Locations')]")
+    public static WebElement communityLocations300Plus;
+    @FindBy(xpath = "//span[contains(text(),'You can access Mount Sinai health care across New York City and beyond')]")
+    public static WebElement captionOfSymbolOfMap;
+
+    @FindBy(xpath = "//i[@class='fa fa-building']")
+    public static WebElement symbolOfInstitutes;
+    @FindBy(xpath = "//h3[contains(text(),'36 Institutes')]")
+    public static WebElement thirtySixInstitutes;
+    @FindBy(xpath = "//p[contains(text(),'Focused on multidisciplinary research, educational, and clinical progress')]")
+    public static WebElement captionOfSymbolOfInstitutes;
 
 
+    @FindBy(xpath = "//div[@class='nav navbar col-xs-12']//a[text()='Inside Mount Sinai Blog']")
+    public static WebElement insideMountSinaiBlog;
+
+    @FindBy(xpath = "//i[@class='fa fa-linkedin']")
+    public static WebElement blogInLinkedIn;
+    @FindBy(xpath = "//i[@class='fa fa-facebook']")
+    public static WebElement blogInFaceBook;
+    @FindBy(xpath = "//i[@class='fa fa-twitter']")
+    public static WebElement blogInTwitter;
+    @FindBy(xpath = "//i[@class='fa fa-youtube']")
+    public static WebElement blogInYouTube;
+    @FindBy(xpath = "//i[@class='fa fa-instagram']")
+    public static WebElement blogInInstagram;
+    @FindBy(xpath = "//i[@class='fa fa-pinterest']")
+    public static WebElement blogInPinterest;
+
+
+    @FindBy(xpath = "//li[contains(text(),'Patient Information')]")
+    public static WebElement patientInformation;
+    @FindBy(xpath = "//a[contains(text(),'Pay Your Bill')]")
+    public static WebElement payYourBill;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[contains(text(),'International Services')]")
+    public static WebElement internationalServices;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[contains(text(),'Mount Sinai Access')]")
+    public static WebElement mountSinaiAccess;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Find a Doctor']")
+    public static WebElement findADoctor3;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Patient Representatives Offices']")
+    public static WebElement patientRepresentativesOffices;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Language & Accessibility Contacts']")
+    public static WebElement languageAndAccessibilityContacts;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Health Library']")
+    public static WebElement healthLibrary;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Clinical Trials ']")
+    public static WebElement clinicalTrials ;
+
+    @FindBy(xpath = "//li[contains(text(),'Research & Education')]")
+    public static WebElement researchAndEducation ;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Icahn School of Medicine at Mount Sinai']")
+    public static WebElement icahnSchoolOfMedicineAtMountSinai ;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Medical Education']")
+    public static WebElement medicalEducation ;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Graduate Education']")
+    public static WebElement graduateEducation ;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Research']")
+    public static WebElement research ;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Find Faculty']")
+    public static WebElement findFaculty ;
+    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Phillips School of Nursing']")
+    public static WebElement phillipsSchoolOfNursing ;
+
+    @FindBy(xpath = "//li[contains(text(),'For Health Professionals')]")
+    public static WebElement forHealthProfessionals ;
 
     public void checkLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -340,11 +416,171 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         mountSinaiAtAGlance.click();
     }
-
-
-
-
-
+    public void checkSymbolOfEmployees() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        symbolOfEmployees.click();
+    }
+    public void checkOver38000Employees() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        over38000Employees.click();
+    }
+    public void checkCaptionOfSymbolOfEmployees() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        captionOfSymbolOfEmployees.click();
+    }
+    public void checkSymbolOfMap() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        symbolOfMap.click();
+    }
+    public void checkCommunityLocations300Plus() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        communityLocations300Plus.click();
+    }
+    public void checkCaptionOfSymbolOfMap() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        captionOfSymbolOfMap.click();
+    }
+    public void checkSymbolOfInstitutes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        symbolOfInstitutes.click();
+    }
+    public void checkThirtySixInstitutes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        thirtySixInstitutes.click();
+    }
+    public void checkCaptionOfSymbolOfInstitutes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        captionOfSymbolOfInstitutes.click();
+    }
+    public void checkInsideMountSinaiBlog() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        insideMountSinaiBlog.click();
+    }
+    public void checkBlogInLinkedIn() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        blogInLinkedIn.click();
+    }
+    public void checkBlogInFaceBook() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        blogInFaceBook.click();
+    }
+    public void checkBlogInTwitter() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        blogInTwitter.click();
+    }
+    public void checkBlogInYouTube() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        blogInYouTube.click();
+    }
+    public void checkBlogInInstagram() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        blogInInstagram.click();
+    }
+    public void checkBlogInPinterest() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        blogInPinterest.click();
+    }
+    public void checkPatientInformation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        patientInformation.click();
+    }
+    public void checkPayYourBill() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        payYourBill.click();
+    }
+    public void checkInternationalServices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        internationalServices.click();
+    }
+    public void checkMountSinaiAccess() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mountSinaiAccess.click();
+    }
+    public void checkFindADoctor3() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findADoctor3.click();
+    }
+    public void checkPatientRepresentativesOffices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        patientRepresentativesOffices.click();
+    }
+    public void checkLanguageAndAccessibilityContacts() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        languageAndAccessibilityContacts.click();
+    }
+    public void checkHealthLibrary() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        healthLibrary.click();
+    }
+    public void checkClinicalTrials() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clinicalTrials.click();
+    }
+    public void checkResearchAndEducation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        researchAndEducation.click();
+    }
+    public void checkIcahnSchoolOfMedicineAtMountSinai() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        icahnSchoolOfMedicineAtMountSinai.click();
+    }
+    public void checkMedicalEducation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        medicalEducation.click();
+    }
+    public void checkGraduateEducation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        graduateEducation.click();
+    }
+    public void checkResearch() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        research.click();
+    }
+    public void checkFindFaculty() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findFaculty.click();
+    }
+    public void checkPhillipsSchoolOfNursing() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        phillipsSchoolOfNursing.click();
+    }
+    public void checkForHealthProfessionals() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        forHealthProfessionals.click();
+    }
 
 
 

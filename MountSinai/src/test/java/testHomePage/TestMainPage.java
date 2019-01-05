@@ -241,5 +241,198 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkMountSinaiAtAGlance();
     }
+    @Test
+    public void testSymbolOfEmployees(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSymbolOfEmployees();
+    }
+    @Test
+    public void testOver38000Employees(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkOver38000Employees();
+    }
+    @Test
+    public void testCaptionOfSymbolOfEmployees(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCaptionOfSymbolOfEmployees();
+    }
+    @Test
+    public void testSymbolOfMap(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSymbolOfMap();
+    }
+    @Test
+    public void testCommunityLocations300Plus(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCommunityLocations300Plus();
+    }
+    @Test
+    public void testCaptionOfSymbolOfMap() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCaptionOfSymbolOfMap();
+    }
+    @Test
+    public void testSymbolOfInstitutes(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSymbolOfInstitutes();
+    }
+    @Test
+    public void testThirtySixInstitutes(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkThirtySixInstitutes();
+    }
+    @Test
+    public void testCaptionOfSymbolOfInstitutes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCaptionOfSymbolOfInstitutes();
+    }
+    @Test
+    public void testInsideMountSinaiBlog() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkInsideMountSinaiBlog();
+    }
+    @Test
+    public void testBlogInLinkedIn() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBlogInLinkedIn();
+    }
+    @Test
+    public void testBlogInFaceBook() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBlogInFaceBook();
+    }
+    @Test
+    public void testBlogInTwitter() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBlogInTwitter();
+    }
+    @Test
+    public void testBlogInYouTube() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBlogInYouTube();
+    }
+    @Test
+    public void testBlogInInstagram() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBlogInInstagram();
+    }
+    @Test
+    public void testBlogInPinterest() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBlogInPinterest();
+    }
+    @Test
+    public void testPatientInformation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPatientInformation();
+    }
+    @Test
+    public void testPayYourBill() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPayYourBill();
+    }
+    @Test
+    public void testInternationalServices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkInternationalServices();
+    }
+    @Test
+    public void testMountSinaiAccess() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkMountSinaiAccess();
+    }
+    @Test
+    public void testFindADoctor3() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkFindADoctor3();
+    }
+    @Test
+    public void testPatientRepresentativesOffices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPatientRepresentativesOffices();
+    }
+    @Test
+    public void testLanguageAndAccessibilityContacts() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkLanguageAndAccessibilityContacts();
+    }
+    @Test
+    public void testHealthLibrary() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkHealthLibrary();
+    }
+    @Test
+    public void testClinicalTrials() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkClinicalTrials();
+    }
+    @Test
+    public void testResearchAndEducation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkResearchAndEducation();
+    }
+    @Test
+    public void testIcahnSchoolOfMedicineAtMountSinai() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkIcahnSchoolOfMedicineAtMountSinai();
+    }
+    @Test
+    public void testMedicalEducation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkMedicalEducation();
+    }
+    @Test
+    public void testGraduateEducation() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkGraduateEducation();
+    }
+    @Test
+    public void testResearch() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkResearch();
+    }
+    @Test
+    public void testFindFaculty() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkFindFaculty();
+    }
+    @Test
+    public void testPhillipsSchoolOfNursing() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPhillipsSchoolOfNursing();
+    }
+    @Test
+    public void testForHealthProfessionals() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkForHealthProfessionals();
+    }
+
+
 
 }

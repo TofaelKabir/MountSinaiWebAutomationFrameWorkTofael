@@ -47,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="2066" />
+          <entry key="java" value="2805" />
           <entry key="runner" value="3" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2066" />
+          <entry key="JAVA" value="2805" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="6" />
         </counts>
@@ -63,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MountSinai/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="102" column="67" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="67" />
+            <state relative-caret-position="255">
+              <caret line="181" column="54" selection-start-line="181" selection-start-column="54" selection-end-line="181" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="239" column="20" lean-forward="true" selection-start-line="239" selection-start-column="20" selection-end-line="239" selection-end-column="20" />
+            <state relative-caret-position="433">
+              <caret line="433" column="5" selection-start-line="433" selection-start-column="5" selection-end-line="433" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,11 +156,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="561" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="304" />
     <option name="y" value="23" />
-    <option name="width" value="826" />
-    <option name="height" value="830" />
+    <option name="width" value="1005" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -247,7 +247,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546572847539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546653651123" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -277,8 +277,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testMountSinaiAtAGlance">
-    <configuration name="TestMainPage.testGo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMainPage.testForHealthProfessionals">
+    <configuration name="TestMainPage.testFindFaculty" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -288,7 +288,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testGo" />
+      <option name="METHOD_NAME" value="testFindFaculty" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -296,7 +296,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testMountSinaiAtAGlance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testForHealthProfessionals" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -306,7 +306,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testMountSinaiAtAGlance" />
+      <option name="METHOD_NAME" value="testForHealthProfessionals" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -314,7 +314,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testSelectHospitals1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testGraduateEducation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -324,7 +324,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testSelectHospitals1" />
+      <option name="METHOD_NAME" value="testGraduateEducation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -332,7 +332,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testPhillipsSchoolOfNursing" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -342,7 +342,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testSelectUrgentCareAndWalkIn1" />
+      <option name="METHOD_NAME" value="testPhillipsSchoolOfNursing" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -350,7 +350,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testViewMoreLocations" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testResearch" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MountSinai" />
       <extension name="coverage">
         <pattern>
@@ -360,7 +360,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testViewMoreLocations" />
+      <option name="METHOD_NAME" value="testResearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -369,19 +369,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestMainPage.testSelectHospitals1" />
-      <item itemvalue="TestNG.TestMainPage.testSelectUrgentCareAndWalkIn1" />
-      <item itemvalue="TestNG.TestMainPage.testGo" />
-      <item itemvalue="TestNG.TestMainPage.testViewMoreLocations" />
-      <item itemvalue="TestNG.TestMainPage.testMountSinaiAtAGlance" />
+      <item itemvalue="TestNG.TestMainPage.testGraduateEducation" />
+      <item itemvalue="TestNG.TestMainPage.testResearch" />
+      <item itemvalue="TestNG.TestMainPage.testFindFaculty" />
+      <item itemvalue="TestNG.TestMainPage.testPhillipsSchoolOfNursing" />
+      <item itemvalue="TestNG.TestMainPage.testForHealthProfessionals" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testMountSinaiAtAGlance" />
-        <item itemvalue="TestNG.TestMainPage.testViewMoreLocations" />
-        <item itemvalue="TestNG.TestMainPage.testGo" />
-        <item itemvalue="TestNG.TestMainPage.testSelectUrgentCareAndWalkIn1" />
-        <item itemvalue="TestNG.TestMainPage.testSelectHospitals1" />
+        <item itemvalue="TestNG.TestMainPage.testForHealthProfessionals" />
+        <item itemvalue="TestNG.TestMainPage.testPhillipsSchoolOfNursing" />
+        <item itemvalue="TestNG.TestMainPage.testFindFaculty" />
+        <item itemvalue="TestNG.TestMainPage.testResearch" />
+        <item itemvalue="TestNG.TestMainPage.testGraduateEducation" />
       </list>
     </recent_temporary>
   </component>
@@ -399,35 +399,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testSelectHospitals1 - 2019.01.03 at 22h 01m 06s.xml">
-      <configuration name="TestMainPage.testSelectHospitals1" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testLanguageAndAccessibilityContacts - 2019.01.04 at 16h 18m 28s.xml">
+      <configuration name="TestMainPage.testLanguageAndAccessibilityContacts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSelectUrgentCareAndWalkIn1 - 2019.01.03 at 22h 04m 52s.xml">
-      <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testHealthLibrary - 2019.01.04 at 16h 20m 52s.xml">
+      <configuration name="TestMainPage.testHealthLibrary" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSelectUrgentCareAndWalkIn1 - 2019.01.03 at 22h 08m 30s.xml">
-      <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testClinicalTrials - 2019.01.04 at 16h 22m 56s.xml">
+      <configuration name="TestMainPage.testClinicalTrials" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSelectUrgentCareAndWalkIn1 - 2019.01.03 at 22h 09m 52s.xml">
-      <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testResearchAndEducation - 2019.01.04 at 19h 39m 37s.xml">
+      <configuration name="TestMainPage.testResearchAndEducation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSelectHospitals1 - 2019.01.03 at 22h 10m 22s.xml">
-      <configuration name="TestMainPage.testSelectHospitals1" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testIcahnSchoolOfMedicineAtMountSinai - 2019.01.04 at 20h 39m 45s.xml">
+      <configuration name="TestMainPage.testIcahnSchoolOfMedicineAtMountSinai" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSelectUrgentCareAndWalkIn1 - 2019.01.03 at 22h 14m 36s.xml">
-      <configuration name="TestMainPage.testSelectUrgentCareAndWalkIn1" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testMedicalEducation - 2019.01.04 at 20h 43m 07s.xml">
+      <configuration name="TestMainPage.testMedicalEducation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testGo - 2019.01.03 at 22h 18m 33s.xml">
-      <configuration name="TestMainPage.testGo" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testGraduateEducation - 2019.01.04 at 20h 45m 26s.xml">
+      <configuration name="TestMainPage.testGraduateEducation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testViewMoreLocations - 2019.01.03 at 22h 22m 24s.xml">
-      <configuration name="TestMainPage.testViewMoreLocations" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testResearch - 2019.01.04 at 20h 47m 35s.xml">
+      <configuration name="TestMainPage.testResearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testViewMoreLocations - 2019.01.03 at 22h 24m 08s.xml">
-      <configuration name="TestMainPage.testViewMoreLocations" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testFindFaculty - 2019.01.04 at 20h 51m 17s.xml">
+      <configuration name="TestMainPage.testFindFaculty" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testMountSinaiAtAGlance - 2019.01.03 at 22h 30m 50s.xml">
-      <configuration name="TestMainPage.testMountSinaiAtAGlance" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testPhillipsSchoolOfNursing - 2019.01.04 at 20h 54m 43s.xml">
+      <configuration name="TestMainPage.testPhillipsSchoolOfNursing" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -440,10 +440,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="23" width="826" height="830" extended-state="0" />
+    <frame x="304" y="23" width="1005" height="829" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30975348" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25129804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,7 +452,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2100271" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21031208" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -580,20 +580,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MountSinai/src/main/java/homePage/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="102" column="67" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="67" />
+        <state relative-caret-position="433">
+          <caret line="433" column="5" selection-start-line="433" selection-start-column="5" selection-end-line="433" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/MountSinai/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="239" column="20" lean-forward="true" selection-start-line="239" selection-start-column="20" selection-end-line="239" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="181" column="54" selection-start-line="181" selection-start-column="54" selection-end-line="181" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
